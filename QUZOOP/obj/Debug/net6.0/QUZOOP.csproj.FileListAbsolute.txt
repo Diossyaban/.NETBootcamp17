@@ -1,0 +1,15 @@
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\bin\Debug\net6.0\QUZOOP.exe
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\bin\Debug\net6.0\QUZOOP.deps.json
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\bin\Debug\net6.0\QUZOOP.runtimeconfig.json
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\bin\Debug\net6.0\QUZOOP.dll
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\bin\Debug\net6.0\QUZOOP.pdb
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.csproj.AssemblyReference.cache
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.AssemblyInfoInputs.cache
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.AssemblyInfo.cs
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.csproj.CoreCompileInputs.cache
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.dll
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\refint\QUZOOP.dll
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.pdb
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\QUZOOP.genruntimeconfig.cache
+C:\Users\E5470\source\repos\QUZOOP\QUZOOP\obj\Debug\net6.0\ref\QUZOOP.dll
