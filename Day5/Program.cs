@@ -6,8 +6,11 @@ using System.Globalization;
 Person yuli = new Customer("Gus","Samsudin", "gus@gmail.com", new DateTime (1852,4,2),"131-001");
 Customer widi = new Customer("MySweety", "Widi", "widi@gmail.com", new DateTime(1999, 2, 5), "131-002");
 Customer rini = new Customer("Irham", "Yuli", "irham@gmail.com", new DateTime(1999, 2, 5), "131-002");
+Owner owner1 = new Owner("Ujang", "Mardijang", "Ujang@gmail.com", new DateTime(1959, 2, 5),4);
+Owner owner2 = new Owner("Asep", "Markecep", "Asep@gmail.com", new DateTime(1949, 2, 5), 3);
+Owner owner3 = new Owner("Senpai", "Faiz", "Senpai@gmail.com", new DateTime(1989, 2, 5), 2);
 
-var listOfCustomer = new List<Person> { yuli, widi, rini } ;
+var listOfCustomer = new List<Person> { yuli, widi, rini,owner1,owner2,owner3 } ;
 var incomeYuli = new Dictionary<string, decimal>
 {
     {"Kontrakan",10_000_000 },
@@ -37,6 +40,36 @@ var incomeRini = new Dictionary<string, decimal>
 
 rini.TotalIncome(incomeRini);
 rini.TotalReveneu = widi.TotalIncome(incomeRini);
+
+var incomeOwner1 = new Dictionary<string, decimal>
+{
+    {"PT.CINTA ABADI",500_000_000 },
+    {"PT.CINTA PALSU",350_000_000 },
+     {"PT.CINTA BUTA",100_000_000 },
+    {"PT. CINTA DUIT",400_000_000 }
+
+};
+owner1.TotalIncome(incomeOwner1);
+owner1.TotalReveneu = owner1.TotalIncome(incomeOwner1);
+
+
+var incomeOwner2 = new Dictionary<string, decimal>
+{
+      {"PT.PUTUS TALI",500_000_000 },
+    {"PT.TALI APAANTUH",350_000_000 },
+     {"PT.CINTA GILA",100_000_000 }
+};
+owner2.TotalIncome(incomeOwner2);
+owner2.TotalReveneu=owner2.TotalIncome(incomeOwner2);
+
+var IncomeOwner3 = new Dictionary<string, decimal>
+{
+      {"PT.SAMBO JENDRAL",500_000_000 },
+    {"PT.BJ MAHMUD",350_000_000 }
+};
+
+owner3.TotalIncome(IncomeOwner3);
+owner3.TotalReveneu = owner3.TotalIncome(IncomeOwner3);
 
 foreach (var item in listOfCustomer)
 {
